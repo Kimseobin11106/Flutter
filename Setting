@@ -1,0 +1,49 @@
+# 6월 2일
+
+~~환경 설정만 1시간 40분 걸림~~
+
+### 환경 설정
+
+https://docs.flutter.dev/get-started/install/windows/desktop
+
+https://developer.android.com/studio?hl=ko
+
+1. 시스템 환경 변수 편집 
+- PATH 편집(두 변수 모두) → 새로 만들기
+- **C:\src\flutter (src 파일 만들고 flutter 다운 넣고)**
+1. CMD
+- 다했으면 “flutter doctor” 로 확인
+
+p 34~56 환경설정 다하삼
+
+### Flutter Doctor 이슈들
+
+### Visual Studio[!]
+
+![image.png](attachment:02a168bf-4b94-404a-8d24-a37366294e62:image.png)
+
+![image.png](attachment:c84993ad-4475-4b4a-8d50-b4f99e10b7ba:image.png)
+
+추가 도구 및 기능 설치에서 .NET,C++ 개발 깔 것
+
+### Android Studio[!]
+
+![image.png](attachment:3ff32bc9-b1db-46be-88ba-9e4aa1c44cf7:image.png)
+
+File Setting 가서 Android SDK Command-line Tools 깔기
+
+### Android toolchain[!]
+
+[!] Android toolchain - develop for Android devices (Android SDK version 36.0.0)
+! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+
+**cmd 에 flutter doctor --android-licenses치셈**
+
+### Windows Version[X]
+
+[X] Windows Version (Unable to confirm if installed Windows version is 10 or greater)
+
+**cmd 치기**
+
+1. C:\>flutter channel master
+2. C:\>flutter upgrade
